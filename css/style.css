@@ -61,3 +61,163 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+
+
+
+
+h1 {
+	margin: 0px 35px 50px 100px;
+	padding-top: 35px;
+	color: lawngreen;
+	display: inline-block;
+	font-size: 3em;
+	font-family: Monaco;
+}
+
+div em {
+	color: lawngreen;
+	display: inline-block;
+	font-size: 1.1em;
+	font-family: Monaco;
+}
+
+header div.container {
+	background-color: #333;
+	width: 100%;
+	height: 120px;
+}
+
+section div.container {
+	background-color: white;
+	width: 100%;
+	height: 400px;
+}
+
+img[src="images/welcome.gif"] {
+	padding-top: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+div.instructions-content h2 {
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.instructions-content {
+	width: 650px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+div ol {
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+img[src="images/captain-janeway.png"] {
+	float: right;
+	height: 150px;
+	padding: 5px;
+}
+
+
+.instructions-wrapper {
+	border: 5px solid black;
+	max-height: 180px;
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+section.about-me div.container {
+	background-color: blue;
+	height: 300px;
+}
+
+img[src="images/stunning.jpg"] {
+	max-height: 50%;
+	margin-top: 20px;
+	float: left;
+	margin-left: 200px;
+}
+
+
+
+
+
+section.about-me h2 {
+	display: inline-block;
+	/*float: right;*/
+	color: white;
+	margin-right: 500px;
+	margin-left: 30px;
+}
+
+section.about-me p {
+	display: inline-block;
+	/*float: left;*/
+	color: white;
+	max-width: 700px;
+	margin-left: 30px;
+}
+
+ {
+	display: inline-block;
+	float: right;
+}
+
+table {
+	display: inline-block;
+	width: 60%;
+	margin: 0 20% 0 20%;
+
+}
+
+th, tr {
+	background-color: #333;
+	color: lawngreen;
+	width: 33%;
+	height: 24px;
+}
+
+th {
+	text-align: left;
+}
+
+div.container:nth-of-type(4) {
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
